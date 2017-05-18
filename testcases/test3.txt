@@ -1,0 +1,86 @@
+declare module d;
+declare module c;
+
+<<module c>> takes input[list:array[1..15] of real, n:integer];
+start 
+	a := 1;
+	declare q: real;
+	switch(q)	
+	start
+		case true: print(temp);
+			   break;
+		case false: print(0);
+		            break;
+	end
+end 
+
+<<<driver program>>>
+start
+	declare index:integer;
+	declare t:boolean;
+	declare bee: real;
+	for(index in  1..15)
+	start
+		t:= index<=5;
+		declare akki: real;
+		declare temp:integer;
+		switch(temp)	
+		start
+			case 1: print(temp);
+				   break;
+			case 2: print(0);
+			       break;
+		end
+		switch(temp)	
+		start
+			case 0: print(temp);
+				   break;
+			case 2: print(0);
+			       break;
+			default: break;
+		end
+		switch(akki)	
+		start
+			case 1: print(temp);
+				   break;
+			case 2: print(0);
+			       break;
+		end
+		declare bool: boolean;
+		switch(bool)	
+		start
+			case 0: print(temp);
+				   break;
+			case false: print(0);
+			            break;
+			case true: break;
+		end
+		switch(bool)	
+		start
+			case true: get_value(temp);
+				   break;
+			case false: print(0);
+			            break;
+			case true: break;
+			**default: break;**
+		end
+
+		
+		
+
+	end
+end
+
+<<module d>> takes input[list:array[1..15] of real, a: boolean];
+start 
+   declare a: real;
+   declare foo: boolean;
+   foo := (a==a);
+   switch(c)	
+	start
+		case 1: print(temp);
+			   break;
+		case 2: print(0);
+		            break;
+	end
+end

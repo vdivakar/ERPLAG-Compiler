@@ -1,0 +1,41 @@
+declare module d;
+ 
+
+<<<driver program>>>
+start
+	declare index:integer;
+	declare t:boolean;
+	declare bee: real;
+	for(index in  1..15)
+	start
+		t:= index<=5;
+		declare temp:integer;
+		declare boo : boolean;
+		switch(boo)	
+		start
+			case 1: print(temp);
+				   break;
+			case 2: print(0);
+			       break;
+			default: break;
+		end
+
+
+	end
+end
+
+<<module arraySum>>
+takes input[list:real, n:integer];
+returns  [sum:real];
+start
+	declare index:integer;
+	declare t:boolean;
+	sum:=0.0;
+	for(index in  1..15)
+	start
+		t:= index<=n;
+		index := 1;
+		declare index:boolean;	
+	end
+	print(sum);
+end

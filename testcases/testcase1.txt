@@ -1,0 +1,17 @@
+declare module new;
+<<<driver program>>>
+start
+	declare s:real;
+	declare dv:integer;
+	declare aaa: array[34..50] of integer;
+	declare mn:array[87..99] of real;
+
+	while(aaa)
+	start
+		declare rr:real;
+		aaa:= s - 20;
+		dv := -6;
+
+	end	
+end
+

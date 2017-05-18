@@ -1,0 +1,22 @@
+declare module compute;
+<<<driver program>>>
+start
+	declare s:real;
+	 
+end
+<<module compute>>
+takes input[a:integer];
+start
+	declare b:boolean;
+	
+
+	** check  rules 27 a to e and redefine to preserve the parentheses needs ** 
+	print(res_1);
+end
+**
+<<module newmod>>
+takes input[a:real];
+start
+	declare newVar:real;
+end
+**
